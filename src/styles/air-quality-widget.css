@@ -1,0 +1,85 @@
+.air-quality-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.air-quality-widget-container {
+  margin: 15px;
+  width: 400px;
+  height: 200px;
+  border-radius: 15px;
+  border: 6px solid #6d7079;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.air-quality-city {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+  color: #545454;
+}
+
+.air-quality-info-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.air-quality-aqi {
+  color: #545454;
+  font-size: 75px;
+  margin-right: 5px;
+}
+
+.air-quality-label {
+  margin-left: 5px;
+  font-size: 35px;
+  color: #545454;
+}
+
+.air-quality-refresh-button {
+  outline-offset: 4px;
+  width: 110px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 6px 0;
+  color: #545454;
+  position: relative;
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 10px;
+  justify-self: center;
+  font-size: 16px;
+}
+
+.air-quality-refresh-button:after {
+  content: '';
+  background: #bdbdbd;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.air-quality-refresh-button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
