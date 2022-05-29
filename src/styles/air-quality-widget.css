@@ -3,6 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  font-family: 'Indie Flower', regular;
 }
 
 .air-quality-widget-container {
@@ -18,9 +19,9 @@
 }
 
 .air-quality-city {
-  font-size: 30px;
+  font-size: 36px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 10px;
   font-weight: bold;
   color: #545454;
 }
@@ -34,12 +35,12 @@
 
 .air-quality-aqi {
   color: #545454;
-  font-size: 75px;
-  margin-right: 5px;
+  font-size: 60px;
+  margin-right: 10px;
 }
 
 .air-quality-label {
-  margin-left: 5px;
+  margin-left: 10px;
   font-size: 35px;
   color: #545454;
 }
