@@ -9,9 +9,9 @@ export default function App() {
     <div class="main-container">
       <Title title="Take a breath" />
       <div class="content">
-        <Image iamgeUrl="https://github.com/dominika-zajac/take-breath-styled/blob/master/src/assets/cat.png?raw=true"/>
-        <AirQualtiyWidget city="Cracow" aqi={17} airQuality="good"/>
-        <AirQualtiyWidget city="Warsaw" aqi={18} airQuality="good"/>
+        <Image imageUrl="https://github.com/dominika-zajac/take-breath-styled/blob/master/src/assets/cat.png?raw=true"/>
+        <AirQualtiyWidget />
+        <AirQualtiyWidget />
       </div>
     </div>
   );
