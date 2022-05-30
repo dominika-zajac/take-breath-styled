@@ -7,9 +7,9 @@ import Title from './Title';
 export default function App() {
   return (
     <div class="main-container">
-      <Title title="Take a breath" />
+      <Title />
       <div class="content">
-        <Image imageUrl="https://github.com/dominika-zajac/take-breath-styled/blob/master/src/assets/cat.png?raw=true"/>
+        <Image/>
         <AirQualtiyWidget />
         <AirQualtiyWidget />
       </div>
