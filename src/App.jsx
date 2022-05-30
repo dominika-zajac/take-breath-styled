@@ -10,7 +10,7 @@ export default function App() {
     <div class="main-container">
       <Title title="Take a breath" />
       <div class="content">
-        <Image />
+        <Image iamgeUrl="https://github.com/dominika-zajac/take-breath-styled/blob/master/src/assets/cat.png?raw=true"/>
         <AirQualityContainer>
           <AirQualtiyWidget city="Cracow" />
           <AirQualtiyWidget city="London" />

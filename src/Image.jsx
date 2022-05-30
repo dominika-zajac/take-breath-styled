@@ -1,12 +1,10 @@
 import React from 'react';
 import './styles/image.css';
 
-const Image = () => (
+const Image = ({ iamgeUrl }) => (
   <img
     className="image-container image-enrichment"
-    src={
-      'https://github.com/dominika-zajac/take-breath-styled/blob/master/src/assets/cat.png?raw=true'
-    }
+    src={iamgeUrl}
   />
 );
 
