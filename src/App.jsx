@@ -1,5 +1,4 @@
 import React from 'react';
-import AirQualityContainer from './AirQualityContainer';
 import Image from './Image';
 import AirQualtiyWidget from './AirQualityWidget';
 import './styles/app.css';
@@ -11,11 +10,9 @@ export default function App() {
       <Title title="Take a breath" />
       <div class="content">
         <Image iamgeUrl="https://github.com/dominika-zajac/take-breath-styled/blob/master/src/assets/cat.png?raw=true"/>
-        <AirQualityContainer>
-          <AirQualtiyWidget city="Cracow" />
-          <AirQualtiyWidget city="London" />
-          <AirQualtiyWidget city="Beijing" />
-        </AirQualityContainer>
+        <AirQualtiyWidget city="Cracow" />
+        <AirQualtiyWidget city="London" />
+        <AirQualtiyWidget city="Beijing" />
       </div>
     </div>
   );
