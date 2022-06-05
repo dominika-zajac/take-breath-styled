@@ -4,6 +4,7 @@ import Image from './Image';
 import AirQualtiyWidget from './AirQualityWidget';
 import './styles/app.css';
 import Title from './Title';
+import AirQualityWidget from './AirQualityWidget';
 
 export default function App() {
   return (
@@ -11,6 +12,8 @@ export default function App() {
       <Title />
       <div className="content">
         <Image/>
+        <AirQualityWidget/>      
+        <AirQualityWidget/>  
       </div>
     </div>
   );
