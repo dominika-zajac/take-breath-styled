@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles/app.css';
 
-export default function Title() { 
+export default function Title({ title }) { 
   return(
     <h1 className="title">
-      Take a breath
+      {title}
     </h1>
   )
 }

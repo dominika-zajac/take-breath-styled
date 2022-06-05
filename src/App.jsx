@@ -9,11 +9,11 @@ import AirQualityWidget from './AirQualityWidget';
 export default function App() {
   return (
     <div className="main-container">
-      <Title />
+      <Title title="Take a breath" />
       <div className="content">
         <Image/>
-        <AirQualityWidget/>      
-        <AirQualityWidget/>  
+        <AirQualtiyWidget city="Cracow" aqi={17} airQuality="good"/>
+        <AirQualtiyWidget city="Warsaw" aqi={18} airQuality="good"/>
       </div>
     </div>
   );
