@@ -7,8 +7,10 @@ import Title from './Title';
 
 export default function App() {
   return (
-    <div>
-      You can edit me
+    <div className="main-container">
+      <h1 className="title">
+        Take a breath
+      </h1>
       <div className="content">
       </div>
     </div>

@@ -3,6 +3,6 @@ import './styles/app.css';
 
 export default function Title() { 
   return(
-    <div/>
+    <div />
   )
 }
