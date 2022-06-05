@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles/app.css';
 
-const Title = ({ title }) => (
-  <h1 className="title">
-    {title}
-  </h1>
-)
-
-export default Title
+export default function Title({ title }) { 
+  return(
+    <h1 className="title">
+      {title}
+    </h1>
+  )
+}

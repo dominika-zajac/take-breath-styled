@@ -3,7 +3,7 @@ import { fetchAirData } from './api/airQuality.api';
 import "./styles/air-quality-widget.css"
 
 
-const AirQualityWidget = ({ city }) => {
+export default function AirQualityWidget ({ city }) {
   const [airData, setAirData] = useState(null);
   useEffect(() => {
     fetchAirData(city).then((fetchedAirData) => {
@@ -28,5 +28,3 @@ const AirQualityWidget = ({ city }) => {
     </div>
   );
 };
-
-export default AirQualityWidget;
