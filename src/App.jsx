@@ -10,6 +10,7 @@ export default function App() {
     <div className="main-container">
       <Title />
       <div className="content">
+        <Image/>
       </div>
     </div>
   );
