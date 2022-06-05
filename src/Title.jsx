@@ -3,6 +3,8 @@ import './styles/app.css';
 
 export default function Title() { 
   return(
-    <div />
+    <h1 className="title">
+      Take a breath
+    </h1>
   )
 }

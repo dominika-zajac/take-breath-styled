@@ -8,9 +8,7 @@ import Title from './Title';
 export default function App() {
   return (
     <div className="main-container">
-      <h1 className="title">
-        Take a breath
-      </h1>
+      <Title />
       <div className="content">
       </div>
     </div>
